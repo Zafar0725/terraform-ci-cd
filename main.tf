@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "your-terraform-state-bucket"
+    bucket = "mydestroy-123"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
